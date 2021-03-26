@@ -14,7 +14,13 @@ public class HomeController {
     public String index(){
         return "home/index";
     }
-    @PostMapping("/valida-cpf")
+    
+    @GetMapping("/style.css")
+    public String style(){
+        return "home/style";
+    }
+    
+    @PostMapping("/validacpf")
     public String validarCPF(Cliente cliente, Model model){
         model.addAttribute("cliente", cliente);
         model.addAttribute("validado", cliente.validarCPF());
