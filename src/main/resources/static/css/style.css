@@ -75,7 +75,7 @@ h2 {
 	background-color: #0da6e8;
 }
 
-#principal {
+#principal_home {
 	/*clear:both;*/
 	background-image: url('/images/concrete-medium.gif');
 	background-size: 100%;
@@ -83,6 +83,16 @@ h2 {
 	padding: 100px 0 0 0;
 	font-family: sans-serif;
 }
+
+#principal {
+	/*clear:both;*/
+	background-color: white;
+	background-size: 100%;
+	min-height: 400px;
+	padding: 100px 0 0 0;
+	font-family: sans-serif;
+}
+
 .container {
 	width: 960px;
 	margin: 0 auto;
