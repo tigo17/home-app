@@ -3,7 +3,7 @@ p {
 	color: white;
 	font-size: 20px;
 	/*font-family: Arial, "Time new roman";*/
-	text-shadow:1px 1px 1px #111111;
+	/* text-shadow:1px 1px 1px #111111; */
 
 }
 
@@ -14,26 +14,26 @@ body {
 * {
 	margin: 0;
 	padding: 0;
-	font-family: "URW Chancery L", cursive;
+	/* font-family: "URW Chancery L", cursive; */
 }
 	
 header {
-	background-color: #FDCF1C;
+	background-image: url('/images/header-background.jpg');
 	height: 200px;
 	padding: 10px;
 }
 
 footer {
 	clear: both;
-	background-color: #FDCF1C;
+	background-color: #33b5ed;
 	height: 50px;
 	text-align: center;
 	padding: 10px;
 }
 
-h1 {
+h2 {
 	color: #FFFF;
-	text-shadow:1px 1px 1px #111111;
+	/* text-shadow:1px 1px 1px #111111; */
 	text-align: center;
 	margin: 0 0 50px 0;
 }
@@ -45,12 +45,12 @@ h1 {
 	float: left;
 }
 
-#div_direita {
-	background-color: #FDCF1C;
+/* #div_direita {
+	background-color: #010c11;
 	min-height: 200px;
 	width: 20%;
 	float: right;
-}
+} */
 
 #logo {
 	float:left;
@@ -64,15 +64,19 @@ h1 {
 	padding: 106px 20px;
 	text-decoration: none;
 	color: #111;
-	text-shadow: 1px 1px #111111;
+	color: white;
+	font-size: 20px;
+	/* text-shadow: 1px 1px #111111; */
 }
 #menu a:hover{
-	background-color: #FFFF19;
+	color: white;
+	font-size: 30px;
+	background-color: #0da6e8;
 }
 
 #principal {
 	/*clear:both;*/
-	background-image: url('/images/scenic-view-of-beach-248797.jpg');
+	background-image: url('/images/concrete-medium.gif');
 	background-size: 100%;
 	min-height: 400px;
 	padding: 100px 0 0 0;
