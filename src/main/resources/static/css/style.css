@@ -8,12 +8,13 @@ p {
 }
 
 body {
-	background-color: black;
+	background-color: white;
 }
 
 * {
 	margin: 0;
 	padding: 0;
+	/* font-family: sans-serif;  (Ao setar, quebra o menu na Home. provavelmente esse font-family ja eh predefinido para o Home) */ 
 	/* font-family: "URW Chancery L", cursive; */
 }
 	
@@ -29,6 +30,7 @@ footer {
 	height: 50px;
 	text-align: center;
 	padding: 10px;
+	font-family: sans-serif;
 }
 
 h2 {
@@ -45,12 +47,12 @@ h2 {
 	float: left;
 }
 
-/* #div_direita {
-	background-color: #010c11;
+#div_direita {
+	background-color: white;
 	min-height: 200px;
 	width: 20%;
 	float: right;
-} */
+}
 
 #logo {
 	float:left;
@@ -63,10 +65,9 @@ h2 {
 #menu a{
 	padding: 106px 20px;
 	text-decoration: none;
-	color: #111;
 	color: white;
 	font-size: 20px;
-	/* text-shadow: 1px 1px #111111; */
+	text-shadow: 1px 1px #111111;
 }
 #menu a:hover{
 	color: white;
@@ -80,13 +81,14 @@ h2 {
 	background-size: 100%;
 	min-height: 400px;
 	padding: 100px 0 0 0;
+	font-family: sans-serif;
 }
 .container {
 	width: 960px;
 	margin: 0 auto;
 }
 
-.efeito{
+/* .efeito{
 	background-color: rgba(0, 0, 0, 0.7);
-}
+} */
 

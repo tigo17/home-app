@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+    <!-- Favicon head tag -->
+    <link rel="icon" type="imagem/svg+xml" href="/images/favicon.svg">
+    <title>Validação de CPF</title>
+
+    <!-- CSS local -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <title>Validação de CPF</title>
-  </head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
 <body>
     <header>
         <div class="container">
@@ -18,40 +26,41 @@
             </div>
             <div id="menu">
                 <a href="/">Home</a>
-                <a href="#">Quem somos</a>
-                <a href="#">Serviços</a>
-                <a href="#">Fale conosco</a>
+                <a href="#">Ana Amarante</a>
+                <a href="#">Tiago Martin</a>
+                <a href="#">DevOps</a>
                 <a href="/validacao-cpf">Validação de CPF</a>
             </div>
         </div>
     </header>
 
-<div class="card">
-    
+    <!-- <div class="card"> -->
+
     <h3 class="card-header">Validação de CPF</h3>
     <div class="card-body">
-    <form action="/valida-cpf" method="post">
-        <div class="form-rol">
-            <div class="col-md-6 mb-3">
-                <label for="nome">Nome:</label>
-                <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite aqui seu nome">
+        <form action="/valida-cpf" method="post">
+            <div class="form-rol">
+                <div class="col-md-6 mb-3">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite aqui seu nome">
+                </div>
+                <div class="form-rol">
+                    <div class="col-md-6 mb-3">
+                        <label for="cpf">CPF</label>
+                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite o seu CPF">
+                    </div>
+                    <div class="form-rol">
+                        <div class="col-md-6 mb-3">
+                            <input type="submit" class="btn btn-primary" value="Enviar"></input>
+                        </div>
+                    </div>
+                </div>
             </div>
-        <div class="form-rol">
-            <div class="col-md-6 mb-3">
-                <label for="cpf">CPF</label>
-                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite o seu CPF">
-            </div>
-        <div class="form-rol">
-            <div class="col-md-6 mb-3">
-                <input type="submit" class="btn btn-primary" value="Enviar"></input>
-            </div>
-        </div>    
-        </div>
-        </div>
-    </form>
+        </form>
     </div>
-    
-</div>
+
+    <!-- </div> -->
 
 </body>
+
 </html>

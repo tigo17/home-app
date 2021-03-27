@@ -1,42 +1,48 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Sistema para validar CPF em java cpf validado</title>
+  <!-- Favicon head tag -->
+  <link rel="icon" type="imagem/svg+xml" href="/images/favicon.svg">
+  <title>Validação de CPF</title>
+
+  <!-- CSS local -->
   <link rel="stylesheet" type="text/css" href="/css/style.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+  <!-- Required meta tags -->
+  <meta charset="UTF-8">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
-<body class="container">
+
+<body>
   <header>
     <div class="container">
-        <div id="logo">
-            <img src="/images/concrete-logo-pequena.jpg" height="165px">
-        </div>
-        <div id="menu">
-            <a href="/">Home</a>
-            <a href="#">Quem somos</a>
-            <a href="#">Serviços</a>
-            <a href="#">Fale conosco</a>
-            <a href="/validacao-cpf">Validação de CPF</a>
-        </div>
+      <div id="logo">
+        <img src="/images/concrete-logo-pequena.jpg" height="165px">
+      </div>
+      <div id="menu">
+        <a href="/">Home</a>
+        <a href="#">Ana Amarante</a>
+        <a href="#">Tiago Martin</a>
+        <a href="#">DevOps</a>
+        <a href="/validacao-cpf">Validação de CPF</a>
+      </div>
     </div>
-</header>
-  <br>
-  <br>
-  <br>
-  <h2>A validação de CPF foi realizada</h2>
+  </header>
 
+  <h3 class="card-header">Validação de CPF</h3>
+  <div class="card-body"></div>
   <ul>
-    <li>
-      <b>Nome: </b><span th:text="${cliente.nome}"></span>
-    </li>
-    <li>
-      <b>CPF: </b><span th:text="${cliente.cpf}"></span>
-    </li>
+    Nome: <span th:text="${cliente.nome}"></span><br></br>
+    CPF: <span th:text="${cliente.cpf}"></span>
   </ul>
 
   <div th:if="${validado}" class="alert alert-success" role="alert">CPF validado com sucesso</div>
   <div th:unless="${validado}" class="alert alert-danger" role="alert">Nao e valido</div>
-
+  </div>
 </body>
 
 </html>
