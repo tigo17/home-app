@@ -41,4 +41,8 @@ public class HomeController {
     public String devops(){
         return "home/devops";
     }
+    @GetMapping("/motivacao")
+    public String motivacao(){
+        return "home/motivacao";
+    }
 }
