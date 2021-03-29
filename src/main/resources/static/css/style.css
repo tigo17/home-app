@@ -1,0 +1,149 @@
+/* Comentário - Meu arquivo CSS */
+h1 {
+	color: white;
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+}
+a {
+	color: white;
+}
+
+p {
+	color: white;
+	font-size: 18px;
+	/*font-family: Arial, "Time new roman";*/
+	/* text-shadow:1px 1px 1px #111111; */
+	font-family: sans-serif;
+
+}
+
+body {
+	background-color: rgb(82, 63, 127);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	/* font-family: sans-serif;  (Ao setar, quebra o menu na Home. provavelmente esse font-family ja eh predefinido para o Home) */ 
+	/* font-family: "URW Chancery L", cursive; */
+}
+	
+header {
+	background-image: url('/images/header-background.jpg');
+	height: 180px;
+	padding: 10px;
+}
+
+footer {
+	clear: both;
+	background-color: rgb(82, 63, 127);
+	height: 50px;
+	text-align: center;
+	padding: 15px;
+	font-family: sans-serif;
+}
+
+h2 {
+	color: #FFFF;
+	/* text-shadow:1px 1px 1px #111111; */
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+h3 {
+	color: #FFFF;
+	/* text-shadow:1px 1px 1px #111111; */
+	text-align: center;
+	margin: 0 0 50px 0;
+}
+
+#div_esquerda {
+	background-color: white;
+	min-height: 200px;
+	width: 80%;
+	float: left;
+}
+
+#div_direita {
+	background-color: white;
+	min-height: 200px;
+	width: 20%;
+	float: right;
+}
+
+#logo {
+	float:left;
+}
+
+#menu {
+	margin-top: 80px;
+	float: right;
+}
+#menu a{
+	padding: 20px 20px 20px 20px;
+	text-decoration: none;
+	color: white;
+	font-size: 17px;
+	text-shadow: 4px 4px 3px #111111;
+}
+#menu a:hover{
+	color: white;
+	font-size: 19px;
+	background-color: #0da6e8;
+}
+
+#principal_home {
+	/*clear:both;*/
+	background-image: url('/images/concrete-medium.gif');
+	background-size: 100%;
+	min-height: 400px;
+	padding: 200px 0 0 0;
+	font-family: sans-serif;
+}
+
+#principal {
+	/*clear:both;*/
+	background-color: white;
+	background-size: 100%;
+	min-height: 400px;
+	padding: 100px 0 0 0;
+	font-family: sans-serif;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+}
+
+div.logocpf {
+	width: 100%;
+	margin: 0 auto;
+}
+
+section
+{
+    background-color:rgb(82, 63, 127);
+    width: 30%;
+    margin-right:auto;
+    margin-left:auto;
+}
+
+div.center{
+	text-align: center
+}
+
+/* .efeito{
+	background-color: rgba(0, 0, 0, 0.7);
+} */
+
+
+
+
+
+
+

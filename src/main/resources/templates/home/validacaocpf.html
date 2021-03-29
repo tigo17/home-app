@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Favicon head tag -->
+    <link rel="icon" type="imagem/svg+xml" href="/images/favicon.svg">
+    <title>Validação de CPF</title>
+
+    <!-- CSS local -->
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet" type="text/css" href="/css/card.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <div class="logocpf">
+            <div id="logo">
+                <img src="/images/concrete-logo-pequena.jpg" height="165px">
+            </div>
+            <div id="menu">
+                <a href="/">Home</a>
+                <a href="/anaamarante">Ana Amarante</a>
+                <a href="/tiagomartin">Tiago Martin</a>
+                <a href="/devops">DevOps</a>
+                <a href="/motivacao">Motivação</a>
+                <a href="/validacao-cpf">Validação de CPF</a>
+            </div>
+        </div>
+    </header>
+
+    <h3 class="card-header">Validação de CPF</h3>
+    <div class="card-body">
+        <form action="/valida-cpf" method="post">
+            <div class="form-rol">
+                <div class="col-md-6 mb-3">
+                    <label for="nome">Nome:</label>
+                    <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite aqui seu nome">
+                </div>
+                <div class="form-rol">
+                    <div class="col-md-6 mb-3">
+                        <label for="cpf">CPF</label>
+                        <input type="text" class="form-control" id="cpf" name="cpf" placeholder="Digite o seu CPF">
+                    </div>
+                    <div class="form-rol">
+                        <div class="col-md-6 mb-3">
+                            <input type="submit" class="btn btn-primary" value="Enviar"></input>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
