@@ -2,7 +2,7 @@
 ./mvnw package && java -jar target/validarCpf.jar
 
 ### Gerar o build do docker ###
-docker build -t didox/validador-cpf-turma-devops -f Dockerfile .
+docker build -t tigo17/home-app -f Dockerfile .
 
 ### Rodar imagem docker e gravar localmente ###
 docker run -d -p 8081:8080 --name validador-cpf-turma-devops didox/validador-cpf-turma-devops
