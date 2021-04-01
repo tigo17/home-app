@@ -137,6 +137,15 @@ div.center{
 	text-align: center
 }
 
+p.justify{
+	text-indent: 0px;
+	text-align: justify;
+	letter-spacing: 3px;
+}
+div.devops{
+	border: 10px;
+	padding: 80px;
+}
 /* .efeito{
 	background-color: rgba(0, 0, 0, 0.7);
 } */
